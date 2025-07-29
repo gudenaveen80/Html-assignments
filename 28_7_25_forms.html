@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>General Bus Pass Application</title>
+  </head>
+  <body>
+    <center><img src="./tsrtc.png" /></center>
+
+    <form>
+      <table border="1" width="80%" align="center">
+        <tr>
+          <td colspan="4">
+            <font style="color: red"><b>Applicant Details</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td>Name <sup style="color: red">*</sup></td>
+          <td><input type="text" name="name" /></td>
+          <td>Father's/Guardian's Name<sup style="color: red">*</sup></td>
+          <td><input type="text" name="father_name" /></td>
+        </tr>
+        <tr>
+          <td>Day of Birth <sup style="color: red">*</sup></td>
+          <td><input type="date" name="dob" /></td>
+          <td>Gender <sup style="color: red">*</sup></td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td colspan="3">
+            <input type="number" placeholder="Years" size="4" /> Year(s)
+            <input type="number" placeholder="Months" size="4" /> Month(s)
+            <input type="number" placeholder="Days" size="4" /> Day(s)
+          </td>
+        </tr>
+        <tr>
+          <td>Aadhar No <sup style="color: red">*</sup></td>
+          <td><input type="text" name="aadhar" /></td>
+          <td>Whatsapp Number <sup style="color: red">*</sup></td>
+          <td><input type="text" name="whatsapp" /></td>
+        </tr>
+        <tr>
+          <td>Email Id <sup style="color: red">*</sup></td>
+          <td><input type="email" name="email" /></td>
+          <td>Photo <sup style="color: red">*</sup></td>
+          <td><input type="file" name="photo" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="4">
+            <font style="color: red"><b>Residential Address Details</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td>Applicant's Address</td>
+          <td><input type="text" name="address" /></td>
+          <td>District</td>
+          <td>
+            <select>
+              <option>Prakasam</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Mandal <sup style="color: red">*</sup></td>
+          <td>
+            <select>
+              <option>Kanigiri</option>
+            </select>
+          </td>
+          <td>Village <sup style="color: red">*</sup></td>
+          <td>
+            <select>
+              <option>Venkateswarapuram</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pincode</td>
+          <td><input type="text" name="pincode" /></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <font style="color: red"><b>Pass Type Details</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td>City</td>
+          <td>
+            <select>
+              <option>Kanigiri</option>
+            </select>
+          </td>
+          <td>Pass Type</td>
+          <td>
+            <select>
+              <option>General</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <font style="color: red"
+              ><b>Mode of Payment & Pass Collection</b></font
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Payment Mode <sup style="color: red">*</sup></td>
+          <td>
+            <select>
+              <option>Upi</option>
+            </select>
+          </td>
+          <td>Pass Delivery Mode <sup style="color: red">*</sup></td>
+          <td>
+            <select>
+              <option>Home</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Center at Which you want to collect Pass</td>
+          <td>
+            <select>
+              <option>Kanigiri</option>
+            </select>
+          </td>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td>Captcha</td>
+          <td colspan="3">
+            <b>BEM74C</b> <input type="text" placeholder="Enter Captcha" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
